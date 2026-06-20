@@ -17,6 +17,10 @@ API docs:
 
 https://fxpeek.com/en/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=historical_fx_examples
 
+Spreadsheet answer hub:
+
+https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=excel_sheets_answer_hub
+
 Annual reference report:
 
 - HTML: https://fxpeek.com/en/reports/2026-historical-fx-reference?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=annual_fx_report
@@ -99,6 +103,8 @@ Useful starting pairs:
 ## Citation And Reporting Workflow
 
 For reports, dashboards, or spreadsheet notes, start with the annual FX reference report, then link the exact pair page or API endpoint used for the lookup. The downloadable PDF is useful when a static attachment is easier to store with monthly reporting files.
+
+For Excel or Google Sheets users, link the spreadsheet answer hub beside the CSV endpoint so readers can choose between direct CSV import, JSON scripting, pair-page citation, and report attachment workflows.
 
 ## Notes
 
