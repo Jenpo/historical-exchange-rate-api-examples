@@ -17,6 +17,11 @@ API docs:
 
 https://fxpeek.com/en/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=historical_fx_examples
 
+Annual reference report:
+
+- HTML: https://fxpeek.com/en/reports/2026-historical-fx-reference?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=annual_fx_report
+- PDF: https://fxpeek.com/reports/2026-historical-fx-reference-report.pdf?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=annual_fx_report_pdf
+
 ## Quick Start
 
 Latest rate:
@@ -90,6 +95,10 @@ Useful starting pairs:
 - dashboard prototypes,
 - exchange-rate charting,
 - lightweight data quality checks.
+
+## Citation And Reporting Workflow
+
+For reports, dashboards, or spreadsheet notes, start with the annual FX reference report, then link the exact pair page or API endpoint used for the lookup. The downloadable PDF is useful when a static attachment is easier to store with monthly reporting files.
 
 ## Notes
 
