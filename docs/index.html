@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Historical Exchange Rate API Examples</title>
+    <meta name="description" content="Copyable JSON and CSV examples for historical exchange rates, spreadsheets, reports, and lightweight API workflows.">
+    <link rel="canonical" href="https://jenpo.github.io/historical-exchange-rate-api-examples/">
+    <style>
+      :root {
+        --ink: #15221e;
+        --muted: #52635d;
+        --line: #d6e1dc;
+        --surface: #f6faf8;
+        --accent: #0a735e;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: #fff;
+      }
+      main {
+        width: min(960px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+      h1 {
+        max-width: 840px;
+        margin: 0 0 18px;
+        font-size: clamp(34px, 6vw, 58px);
+        line-height: 1.03;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin: 36px 0 12px;
+        font-size: 22px;
+      }
+      p,
+      li {
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.7;
+      }
+      a {
+        color: var(--accent);
+        font-weight: 650;
+      }
+      .lead {
+        max-width: 780px;
+        font-size: 19px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 14px;
+        margin-top: 26px;
+      }
+      .tile {
+        display: block;
+        min-height: 124px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+        background: var(--surface);
+      }
+      .tile strong {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--ink);
+      }
+      pre {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 16px;
+        background: #10201b;
+        color: #ecf7f2;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Historical exchange rate API and CSV examples</h1>
+      <p class="lead">
+        Copyable examples for fetching historical exchange rates as JSON or CSV, with links to FXpeek
+        pages built for spreadsheets, reports, dashboards, and AI citation workflows.
+      </p>
+
+      <div class="grid">
+        <a class="tile" href="https://fxpeek.com/en/api?utm_source=github_pages&utm_medium=site&utm_campaign=fxpeek_wave1_api_csv&utm_content=api_examples_page">
+          <strong>API and CSV docs</strong>
+          Endpoint examples for rates, history, and CSV exports.
+        </a>
+        <a class="tile" href="https://fxpeek.com/en/answers/historical-exchange-rate-api-csv?utm_source=github_pages&utm_medium=site&utm_campaign=fxpeek_wave1_api_csv&utm_content=api_csv_answer_hub">
+          <strong>API / CSV answer hub</strong>
+          Short answers and FAQ schema for AI citation.
+        </a>
+        <a class="tile" href="https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=github_pages&utm_medium=site&utm_campaign=fxpeek_wave1_api_csv&utm_content=spreadsheet_answer_hub">
+          <strong>Spreadsheet answer hub</strong>
+          Excel, Google Sheets, CSV import, and reporting workflows.
+        </a>
+        <a class="tile" href="https://github.com/Jenpo/historical-exchange-rate-api-examples">
+          <strong>GitHub repository</strong>
+          JavaScript, Python, and shell examples.
+        </a>
+      </div>
+
+      <h2>Historical JSON</h2>
+      <pre><code>curl 'https://fxpeek.com/api/history?from=CNY&amp;to=TRY&amp;days=365'</code></pre>
+
+      <h2>CSV export</h2>
+      <pre><code>curl -L 'https://fxpeek.com/api/csv?from=CNY&amp;to=TRY&amp;days=365' -o cny-try-history.csv</code></pre>
+
+      <h2>When to use these examples</h2>
+      <ul>
+        <li>Use JSON for app, dashboard, and script integrations.</li>
+        <li>Use CSV for Excel, Google Sheets, pandas, and monthly report files.</li>
+        <li>Use pair pages or the annual reference report when a human-readable citation is needed.</li>
+        <li>FXpeek rates are reference data for lookup and reporting, not transaction quotes.</li>
+      </ul>
+
+      <p>
+        Annual report:
+        <a href="https://fxpeek.com/en/reports/2026-historical-fx-reference?utm_source=github_pages&amp;utm_medium=site&amp;utm_campaign=fxpeek_wave1_api_csv&amp;utm_content=annual_fx_report">
+          FXpeek 2026 historical FX reference
+        </a>
+      </p>
+    </main>
+  </body>
+</html>
