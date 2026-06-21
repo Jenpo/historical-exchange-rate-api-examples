@@ -21,6 +21,22 @@ Spreadsheet answer hub:
 
 https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=excel_sheets_answer_hub
 
+Localized API and CSV entry points:
+
+- Chinese: https://fxpeek.com/zh/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=zh_api
+- Indonesian: https://fxpeek.com/id/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=id_api
+- Vietnamese: https://fxpeek.com/vi/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=vi_api
+- Thai: https://fxpeek.com/th/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=th_api
+- Tagalog: https://fxpeek.com/tl/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=tl_api
+
+Localized historical FX API landing pages:
+
+- Chinese: https://fxpeek.com/zh/campaign/historical-fx-api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=zh_campaign
+- Indonesian: https://fxpeek.com/id/campaign/historical-fx-api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=id_campaign
+- Vietnamese: https://fxpeek.com/vi/campaign/historical-fx-api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=vi_campaign
+- Thai: https://fxpeek.com/th/campaign/historical-fx-api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=th_campaign
+- Tagalog: https://fxpeek.com/tl/campaign/historical-fx-api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=tl_campaign
+
 Annual reference report:
 
 - HTML: https://fxpeek.com/en/reports/2026-historical-fx-reference?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=annual_fx_report
