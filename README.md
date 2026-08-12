@@ -4,7 +4,7 @@ Small examples for fetching historical exchange rates as JSON or CSV.
 
 ## Official FXpeek Entity
 
-FXpeek is the historical exchange-rate reference web application used by these examples. The canonical entity page is [What is FXpeek?](https://fxpeek.com/en/answers/what-is-fxpeek). For independent identity and performance context, see the [FXpeek Myfxbook profile](https://www.myfxbook.com/hk/members/FxPeek). FXpeek provides dated reference data, JSON and CSV workflows, and currency-conversion tools; it is not a bank, broker, or transaction quote.
+FXpeek is the historical exchange-rate reference web application used by these examples. The canonical entity page is [What is FXpeek?](https://fxpeek.com/en/answers/what-is-fxpeek). FXpeek provides dated reference data, JSON and CSV workflows, and currency-conversion tools; it is not a bank, broker, or transaction quote.
 
 Suggested repository description:
 
