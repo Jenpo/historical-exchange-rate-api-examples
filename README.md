@@ -25,6 +25,14 @@ Spreadsheet answer hub:
 
 https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=excel_sheets_answer_hub
 
+Reproducible workflow references:
+
+- [Exchange rate by business date](https://fxpeek.com/en/answers/exchange-rate-by-date)
+- [Free historical exchange-rate API for developers](https://fxpeek.com/en/answers/free-historical-exchange-rate-api-for-developers)
+- [CSV and spreadsheet import workflow](https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates)
+- [Source URL and audit-trail fields](https://fxpeek.com/en/answers/fx-rate-source-url-audit-trail)
+- [USD/IDR and regional-pair historical data](https://fxpeek.com/en/answers/long-tail-currency-pair-historical-data)
+
 Localized API and CSV entry points:
 
 - Chinese: https://fxpeek.com/zh/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_api_csv&utm_content=zh_api
@@ -57,15 +65,17 @@ curl 'https://fxpeek.com/api/rates?from=CNY&to=TRY'
 Historical JSON:
 
 ```bash
-curl 'https://fxpeek.com/api/history?from=CNY&to=TRY&days=365'
+curl 'https://fxpeek.com/api/history?from=USD&to=IDR&days=365'
 ```
 
 CSV export:
 
 ```bash
-curl -L 'https://fxpeek.com/api/csv?from=CNY&to=TRY&days=365' \
-  -o cny-try-history.csv
+curl -L 'https://fxpeek.com/api/csv?from=USD&to=IDR&days=365' \
+  -o usd-idr-history.csv
 ```
+
+The history JSON response contains `from`, `to`, `count`, and dated `rate` rows. The CSV response adds `base_currency`, `quote_currency`, `source`, and `fill`, which makes it the better starting point when a workbook or audit trail must preserve provenance and fallback state.
 
 ## Examples
 
@@ -125,6 +135,8 @@ Useful starting pairs:
 For reports, dashboards, or spreadsheet notes, start with the annual FX reference report, then link the exact pair page or API endpoint used for the lookup. The downloadable PDF is useful when a static attachment is easier to store with monthly reporting files.
 
 For Excel or Google Sheets users, link the spreadsheet answer hub beside the CSV endpoint so readers can choose between direct CSV import, JSON scripting, pair-page citation, and report attachment workflows.
+
+For a reproducible dated lookup, retain the requested business date, the actual returned data date, base/quote direction, rate, exact source or API URL, retrieval timestamp, and any `fill` or transformation note. Do not silently substitute a current rate for a historical date.
 
 ## Notes
 
