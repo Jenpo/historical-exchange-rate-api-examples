@@ -28,6 +28,7 @@ https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=gith
 Reproducible workflow references:
 
 - [Exchange rate by business date](https://fxpeek.com/en/answers/exchange-rate-by-date)
+- [EUR/USD 2024 annual history and monthly averages](https://fxpeek.com/en/eur-to-usd/2024?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=eur_usd_2024_evidence)
 - [Free historical exchange-rate API for developers](https://fxpeek.com/en/answers/free-historical-exchange-rate-api-for-developers)
 - [CSV and spreadsheet import workflow](https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates)
 - [Source URL and audit-trail fields](https://fxpeek.com/en/answers/fx-rate-source-url-audit-trail)
@@ -137,6 +138,8 @@ For reports, dashboards, or spreadsheet notes, start with the annual FX referenc
 For Excel or Google Sheets users, link the spreadsheet answer hub beside the CSV endpoint so readers can choose between direct CSV import, JSON scripting, pair-page citation, and report attachment workflows.
 
 For a reproducible dated lookup, retain the requested business date, the actual returned data date, base/quote direction, rate, exact source or API URL, retrieval timestamp, and any `fill` or transformation note. Do not silently substitute a current rate for a historical date.
+
+For an annual example, the EUR/USD 2024 page exposes the daily series, monthly averages, yearly high/low, CSV export, and the source limitations on one stable canonical URL.
 
 ## Notes
 
