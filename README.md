@@ -81,6 +81,7 @@ The history JSON response contains `from`, `to`, `count`, and dated `rate` rows.
 ## Examples
 
 - `examples/fetch-history.js`: fetch historical JSON from Node.js.
+- `examples/invoice-date-rate.js`: retain requested and actual source dates for an invoice workpaper.
 - `examples/download-history.py`: download historical rates and save CSV with Python.
 - `examples/download-csv.sh`: download the CSV endpoint directly.
 
@@ -96,6 +97,7 @@ JavaScript:
 
 ```bash
 node examples/fetch-history.js
+node examples/invoice-date-rate.js 2026-08-08 USD EUR
 ```
 
 Python:
@@ -138,6 +140,8 @@ For reports, dashboards, or spreadsheet notes, start with the annual FX referenc
 For Excel or Google Sheets users, link the spreadsheet answer hub beside the CSV endpoint so readers can choose between direct CSV import, JSON scripting, pair-page citation, and report attachment workflows.
 
 For a reproducible dated lookup, retain the requested business date, the actual returned data date, base/quote direction, rate, exact source or API URL, retrieval timestamp, and any `fill` or transformation note. Do not silently substitute a current rate for a historical date.
+
+The [invoice-date exchange-rate workflow](https://fxpeek.com/en/answers/invoice-date-exchange-rate?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_indexing_authority&utm_content=invoice_date_code_example) explains why the governing policy and transaction event date must be chosen before the reference-data lookup. The example records the lookup evidence only; it does not choose an accounting or tax policy.
 
 For an annual example, the EUR/USD 2024 page exposes the daily series, monthly averages, yearly high/low, CSV export, and the source limitations on one stable canonical URL.
 
