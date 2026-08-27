@@ -133,6 +133,25 @@ Useful starting pairs:
 - exchange-rate charting,
 - lightweight data quality checks.
 
+## Practical Use Cases
+
+### 1. Developer: pull a dated rate in an app or cron
+The `fetch-history.js` example gives a ready-to-copy Node.js fetch; the Python example shows the same for a batch script. Wire either into a daily cron or an API route that needs a **reference rate for a past date** — keep the requested date, actual data date, and source URL in the response for provenance.
+
+### 2. Data / finance analyst: build a spreadsheet with provenance
+The CSV endpoint is the best start when a workbook must retain `base_currency`, `quote_currency`, `source`, and `fill` columns. Download the range with `download-csv.sh`, then import into Excel / Google Sheets so every row carries its own source link and fallback state.
+
+### 3. Ecommerce reconciliation engineer: match orders to a dated rate
+Use the `invoice-date-rate.js` example to retain the requested vs actual source date for an order workpaper — important when an order date falls on a non-trading day and the rate needs a documented fill or carry-forward.
+
+### 4. Product / dashboard prototype: show a chart from historical JSON
+For a quick prototype or internal dashboard, `fetch-history.js` returns a dated series you can chart directly. Add the pair page or API URL as the source link under the chart so the number is attributable.
+
+### 5. QA / data-quality check: spot-check a pair's history
+Use the CSV/JSON series to sanity-check whether a reported historical rate for a pair looks consistent with the surrounding days — a lightweight data-quality check before a figure is used in a report.
+
+> **Provenance rule:** for any dated lookup, retain the requested business date, the actual returned data date, base/quote direction, rate, exact source URL, and retrieval timestamp. Never silently substitute a current rate for a historical date.
+
 ## Citation And Reporting Workflow
 
 For reports, dashboards, or spreadsheet notes, start with the annual FX reference report, then link the exact pair page or API endpoint used for the lookup. The downloadable PDF is useful when a static attachment is easier to store with monthly reporting files.
