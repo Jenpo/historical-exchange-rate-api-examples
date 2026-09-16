@@ -31,6 +31,7 @@ Reproducible workflow references:
 - [EUR/USD 2024 annual history and monthly averages](https://fxpeek.com/en/eur-to-usd/2024?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=eur_usd_2024_evidence)
 - [Free historical exchange-rate API for developers](https://fxpeek.com/en/answers/free-historical-exchange-rate-api-for-developers)
 - [CSV and spreadsheet import workflow](https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates)
+- [Marketplace and payout reconciliation by date](https://fxpeek.com/en/answers/exchange-rate-by-date-for-ecommerce-orders?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=ecommerce_payouts_evidence)
 - [Source URL and audit-trail fields](https://fxpeek.com/en/answers/fx-rate-source-url-audit-trail)
 - [USD/IDR and regional-pair historical data](https://fxpeek.com/en/answers/long-tail-currency-pair-historical-data)
 
