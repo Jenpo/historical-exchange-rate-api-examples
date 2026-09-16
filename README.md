@@ -27,7 +27,7 @@ https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=gith
 
 Reproducible workflow references:
 
-- [Exchange rate by business date](https://fxpeek.com/en/answers/exchange-rate-by-date)
+- [Exchange rate by business date](https://fxpeek.com/en/answers/exchange-rate-by-date?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=rate_by_date_evidence)
 - [EUR/USD 2024 annual history and monthly averages](https://fxpeek.com/en/eur-to-usd/2024?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=eur_usd_2024_evidence)
 - [Free historical exchange-rate API for developers](https://fxpeek.com/en/answers/free-historical-exchange-rate-api-for-developers)
 - [CSV and spreadsheet import workflow](https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates)
