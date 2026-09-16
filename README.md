@@ -55,6 +55,17 @@ Annual reference report:
 - HTML: https://fxpeek.com/en/reports/2026-historical-fx-reference?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=annual_fx_report
 - PDF: https://fxpeek.com/reports/2026-historical-fx-reference-report.pdf?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=annual_fx_report_pdf
 
+## Dated amount lookups
+
+Exact-date and amount lookups that are useful when a report needs a reproducible reference value:
+
+- [5 GBP to EUR](https://fxpeek.com/en/convert/5-gbp-to-eur?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=conv_5_gbp_eur)
+- [2,500 EUR to USD](https://fxpeek.com/en/convert/2500-eur-to-usd?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=conv_2500_eur_usd)
+- [2,500 GBP to USD](https://fxpeek.com/en/convert/2500-gbp-to-usd?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=conv_2500_gbp_usd)
+- [2,500 USD to GBP](https://fxpeek.com/en/convert/2500-usd-to-gbp?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_ranking_authority&utm_content=conv_2500_usd_gbp)
+
+Each page shows the reference rate, the data date, and the source note (ECB / Frankfurter provenance); use them alongside the dated history pages above rather than as a transaction quote.
+
 ## Quick Start
 
 Latest rate:
